@@ -1,4 +1,4 @@
-# codember-22 in Deno + TypeScript
+# 🦕 codember-22 in TypeScript
 Repository for challenges of codember.dev 22' of midudev in Deno + TypeScript
 
 ## ⚙️ Setup
