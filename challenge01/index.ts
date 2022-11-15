@@ -3,7 +3,7 @@ const mapData = (value: string): string[] => value.split("\n\n");
 const REQUIRED_FIELDS = ["usr:", "eme:", "psw:", "loc:", "age:", "fll:"];
 
 const readFile = (): Promise<string> =>
-  fetch("https://codember.dev/userrs.txt").then(
+  fetch("https://codember.dev/users.txt").then(
     (response) => response && response.text()
   ) ?? Deno.readTextFile("challenge01/users.txt");
 
